@@ -1,5 +1,5 @@
 const { Configuration, OpenAIApi} = require('openai');
-const configuration = new Configuration({apiKey:"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"});
+const configuration = new Configuration({apiKey:"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"});
 const openai = new OpenAIApi(configuration);
 
 export async function sendMsgToOpenAI(message) {
